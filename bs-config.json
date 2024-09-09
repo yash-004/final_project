@@ -1,0 +1,14 @@
+{
+  "server": {
+    "baseDir": "./dist",
+    "index": "index.html",
+    "routes": {
+      "/dist": "./dist"
+    }
+  },
+  "files": ["./src/**/*.{html,htm,css,js,ts}"],
+  "watchOptions": {
+    "ignored": "node_modules"
+  },
+  "port": 3000
+}

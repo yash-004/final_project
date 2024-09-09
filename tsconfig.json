@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Change this to 'es5' or a lower version if you need more compatibility
+    "module": "esnext", // Use ESNext modules for bundling with Webpack
+    // "module": "commonjs", // Use 'commonjs' for Node.js environments
+    "outDir": "./dist", // Output directory for compiled JavaScript files
+    "rootDir": "./src", // Directory of the TypeScript source files
+    "esModuleInterop": true, // Allows default imports from modules with no default export
+    "strict": false,
+    "moduleResolution": "node", // Use Node.js-style module resolution
+    "skipLibCheck": true // Skip type checking of declaration files
+  },
+  "include": ["src/**/*"], // Include all TypeScript files in the src directory
+  "exclude": ["node_modules"] // Exclude the node_modules directory
+}
